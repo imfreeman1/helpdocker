@@ -1,0 +1,15 @@
+
+인스턴스 설치는 kud django git hub 참고
+
+https://docs.docker.com/engine/install/ubuntu/ << ubuntu docker 설치
+
+https://blusky10.tistory.com/359 << sudo 없이 docker 사용
+
+docker run -d -it nvidia/cuda:10.2-cudnn7-devel-ubuntu18.04
+
+docker exec -it 컨테이너명 /bin/bash
+
+https://brunch.co.kr/@topasvga/1802  << 클라우드 도커 사용
+
+docker stop my-app && docker rm my-app << 도커 정지 and 삭제
+
